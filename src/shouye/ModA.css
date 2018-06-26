@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.sysj{
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e2e2e2;
+}
+.sysj p{
+    margin: 15px;
+}
+.symoresj{
+    float: right;
+}
+.symoresj{
+    color: #883e21;
+}
+.mabox{
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    color: #333;
+}
+.maimg{
+    width: 100%;
+}
+.mabox h4{
+    text-align: left;
+    line-height: 25px;
+    padding: 0 10px;
+}
+.mabox span{
+    width: 95%;
+    display: inline-block;
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0 10px;
+}

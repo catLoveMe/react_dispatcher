@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.fair_head{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    text-align: center;
+}
+.fair_head_item{
+    width: 15%;
+    font-size: 20px;
+}
+.fair_head_item_center{
+    width:80%;
+    line-height: 30px;
+}

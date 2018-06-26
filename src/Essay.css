@@ -1,0 +1,301 @@
+@font-face{
+    font-family: 'iconfont';
+    src: url("./main/zttf.ttf");
+}
+.Essay{
+    width: 100%;
+    overflow-x: hidden;
+    /*border: 1px solid red;*/
+}
+.Essaynav{
+    height: 90px;
+    border-bottom: 5px solid #e2e2e2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Essaynav>div{
+    /*border: 1px solid red;*/
+    width: 70px;
+    height: 70px;
+    /*display: inline-block;*/
+    /*margin: 0 auto;*/
+}
+.Essaynav>div div{
+    /*border: 1px solid red;*/
+    font-family: 'iconfont';
+    font-size: 45px;
+    font-weight: 300;
+    color: black;
+}
+.Essaynav>div h3{
+    height: 25px;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 500;
+    color: black;
+    /*border: 1px solid red;*/
+}
+.Essaycontent{
+    /*border: 1px solid red;*/
+    width: 100%;
+    /*height: 100px;*/
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    flex-basis: 28%;
+    margin-left: 2%;
+    /*border: 1px solid red;*/
+    /*height: 100px;*/
+}
+.img img{
+    width: 100%;
+    /*height: 100%;*/
+
+}
+.word{
+    flex-basis: 68%;
+    padding-left: 2%;
+    /*border: 1px solid red;*/
+    position: relative;
+    color: black;
+}
+.word h3{
+    font-size: 18px;
+    /*border: 1px solid red;*/
+    text-align: left;
+
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.zanview{
+    width: 100%;
+    height: 20px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.zanview div{
+    font-family: 'iconfont';
+    flex-basis: 50%;
+    text-align: left;
+    /*border: 1px solid red;*/
+}
+.zanview div span{
+    margin-left: 3px;
+}
+.psname{
+    height: 50px;
+    line-height:50px;
+    font-size: 18px ;
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.psname span{
+    float: left;
+    font-family: 'iconfont';
+    text-decoration: none;
+    color: #333;
+}
+.pinglun{
+    background-color: #883e21;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px ;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.EssaycontentDetail p{
+    margin: 20px;
+}
+.EssaycontentDetail h1{
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    }
+.headercon{
+    width: 100%;
+    /*border: 1px solid red;*/
+    text-align: left;
+}
+.headercon span{
+    font-size: 12px;
+    color: #e2e2e2;
+}
+.headercon span:nth-child(2){
+    margin-left: 10px;
+}
+.headercon span:nth-child(3){
+    float: right;
+}
+.EssaycontentDetail p{
+    text-align: left;
+    text-indent: 40px;
+}
+.EssaycontentDetail img{
+    max-width: 95%;
+}
+.Essay1foot,.Essay2foot{
+    margin-bottom: 60px;
+}
+.topdiv{
+    position: relative;
+
+}
+.topdiv img{
+    width: 100%;
+    height: 35vh;
+}
+.topdiv div{
+    /*top:50%;*/
+    /*left: 50%;*/
+    height: 30px;
+    color:black;
+    /*margin: 10px auto;*/
+    position: absolute;
+}
+.topdiv div:nth-of-type(1){
+    /*border: 1px solid red;*/
+    height: 30px;
+    /*width: 100%;*/
+    line-height: 30px;
+    width: 100%;
+    position: absolute;
+    color:rgba(246,250,251,0.95);
+    text-align: center;
+    top:35%;
+}
+.topdiv div:nth-of-type(2){
+    /*border: 1px solid red;*/
+    /*top:50%;*/
+    /*left: 50%;*/
+    height: 30px;
+    line-height: 30px;
+    color:rgba(246,250,251,0.95);
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    background-color: rgba(210,213,214,0.50);
+}
+.zhuantidiv p{
+    text-align: left;
+    padding-left: 2%;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.numberview{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+}
+.numberview div{
+    font-family: 'iconfont';
+    flex-basis: 47%;
+    text-align: left;
+    padding-left: 3%;
+    color:rgba(134,137,146,0.70);
+}
+.numberview div span{
+    margin-left: 3px;
+}
+.zhuantidetail img{
+    width: 100%;
+    height: 35vh;
+}
+.zhuantidetail p {
+    text-align: left;
+    padding-left: 5%;
+}
+.Shipingdiv{
+    /*border: 1px solid red;*/
+}
+.Shipingdiv video{
+    width: 100%;
+    height: 35vh;
+    /*border: 1px solid red;*/
+    margin-bottom: 0;
+}
+.Shipingdiv p{
+    /*border: 1px solid red;*/
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 3%;
+}
+.zanview2{
+    width: 100%;
+    height: 20px;
+    /*border: 1px solid red;*/
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+.zanview2 div{
+
+    font-family: 'iconfont';
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 10px;
+    /*border: 1px solid red;*/
+}
+.zanview2 div span{
+    margin-left: 3px;
+}
+.videodiv{
+    position: relative;
+}
+.startvideo{
+    font-family: 'iconfont';
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+}
+.navbox{
+    position: relative;
+    width: 100%;
+}
+.navbox img{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+.navbox span{
+    background-color: rgba(0,0,0,0.3);
+    height: 25px;
+    padding:0 10px;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lunbotitle{
+    margin-top: 100px !important;
+    width: 100%;
+    color: white;
+    background-color: darkgray;
+}

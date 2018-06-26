@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.selfname{
+    height: 50px;
+    line-height:50px;
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.selfname span{
+    float: left;
+    text-decoration: none;
+    color: #333;
+}
+.selfbox{
+    height: 40px;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 40px;
+    color: #333;
+    padding: 0 20px;
+}
+.selfbox p{
+    float: left;
+}
+.selfbox p:first-child{
+    width: 60px;
+}
+
+.selfinpu{
+    margin-left: 20px;
+}
+.selftime input{
+    border: none;
+    font-size: 14px;
+}

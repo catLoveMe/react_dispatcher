@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url("../main/zttf.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.znav{
+    height: 125px;
+    width: 100%;
+    overflow: hidden;
+}
+.zttalk{
+    height: 120px;
+    width: 100%;
+    border-bottom: 5px solid #e2e2e2;
+    overflow: hidden;
+}
+.zttalk p{
+    text-align: left;
+    padding: 0 20px;
+    line-height: 30px;
+    color: #666;
+}
+.ttimg{
+    width: 40px;
+    border-radius: 25px;
+    padding: 4px;
+    border: 1px solid #666;
+}
+.sybox{
+    float: left;
+    margin-top:10px ;
+    color: #666;
+    width: 20%;
+}
+.cpshow{
+    width: 100%;
+}
+.navbox{
+    position: relative;
+    width: 100%;
+}
+.navbox img{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+.navbox span{
+    background-color: rgba(0,0,0,0.3);
+    height: 25px;
+    padding:0 10px;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}

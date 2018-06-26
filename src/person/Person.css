@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.psname{
+    height: 50px;
+    line-height:50px;
+    padding: 0 20px;
+}
+.psname span{
+    float: left;
+    text-decoration: none;
+    color: #333;
+}
+.psmyimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+}
+.psmymes{
+    padding: 20px 40px;
+    height: 80px;
+    background-color: #e2e2e2;
+    position: relative;
+}
+.psmyinfo{
+    width: 100px;
+    position: absolute;
+    top:20px;
+    right: 40px;
+}
+.psmyinfo span{
+    color: #883e21;
+}
+.psmyinfo p{
+    line-height: 40px;
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+}
+.psset a{
+    color: #333;
+}
+.psset{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 20px;
+}
+.psset p{
+    text-align: left;
+    font-size: 14px;
+}
+.psset p span{
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+}
+.psset p span:first-child{
+    font-size: 20px;
+}
+.psset p span:last-child{
+    font-size: 16px;
+    float: right;
+    margin-top: 10px;
+}
+.pmgbox{
+    width: 80px;
+}

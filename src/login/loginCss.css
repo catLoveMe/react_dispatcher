@@ -1,0 +1,158 @@
+li {
+    list-style: none;
+    text-align: center;
+}
+@font-face {
+    font-family: "iconfont";
+    src: url("./iconfont.ttf");
+}
+@font-face {
+    font-family: "iconfont2";
+    src: url("./iconfont2.ttf");
+}
+.fontdd{
+    font-size: 14px;
+}
+span{
+    font-family: iconfont;
+}
+.head{
+    width: 100%;
+    height: 180px;
+    padding-top: 1px;
+}
+.head ul{
+    height: 100px;
+}
+.logo img{
+    /*width: 80px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+}
+.logo{
+    /*position: relative;*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*overflow: hidden;*/
+    /*border-radius: 80px;*/
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.panel{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.login_num,.login_phone{
+    position: absolute;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid gainsboro;
+}
+.nav span{
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.login_num_list{
+    position: relative;
+    width: 98%;
+    margin: 0 auto;
+    height: 30px;
+    margin-bottom: 3%;
+    vertical-align: middle;
+    margin-top: 5%;
+    border-bottom: 1px solid gainsboro;
+}
+.fontdd input{
+    width: 90%;
+    outline: none;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #666;
+    padding-left: 10px;
+}
+/*:root{*/
+    /*overflow-x:hidden*/
+/*}*/
+.login_num_list span:first-child{
+    font-size: 18px;
+}
+.forgetPassWord,.getResCode{
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+}
+.getResCode{
+    border: 1px solid #883e21;
+   text-align: center;
+    line-height: 20px;
+    height: 20px;
+    width: 80px;
+    color: #883e21;
+    border-radius: 3px;
+}
+
+button{
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 3px ;
+    background-color: #883e21;
+    color: white ;
+    height: 30px;
+    margin: 0 auto;
+    box-shadow: 0 0 2px 2px  ghostwhite;
+}
+.btn{
+   position: relative;
+    margin-top: 15%;
+}
+
+.otherMethod{
+    margin: 10% 0;
+}
+.other_Method{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-items: center;
+    vertical-align: middle;
+}
+.other_Method div{
+    width: 34%;
+}
+.otherMethod_img{
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-around;
+}
+.otherMethod_img div{
+    text-align: center;
+}
+.otherMethod_img> div >p{
+    font-size: 40px;
+    color: #333;
+}
+.hr_line{
+    height: 1px;
+    background-color: #e2e2e2  ;
+    margin-top: 3%;
+}
+.active{
+    color: #883e21;
+    border-bottom: 2px solid #883e21;
+}
+.active_panel{
+    display: none;
+}
+p{
+    font-family: iconfont2;
+}

@@ -1,0 +1,217 @@
+@font-face {
+    font-family: iconfont;
+    src: url('../login/iconfont.ttf');
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    /*width: 98%;*/
+    margin: 0 auto;
+}
+.proDetail_head{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.proDetail_head_item{
+    width: 10%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.proDetail_head_item_center{
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+}
+li{
+    list-style: none;
+    font-family: iconfont;
+}
+.swiper{
+    width: 100%;
+    height: 240px;
+}
+.pro_title{
+    display: flex;
+}
+.single_price{
+    color: #883e21;
+    font-size: 18px;
+}
+.pro_title_item{
+    width: 30%;
+    color: #333;
+    height: 60px;
+}
+.pro_title_item li{
+    line-height: 30px;
+}
+.pro_title_item_one{
+    width: 70%;
+    height: 60px;
+}
+.pro_title_item_one li{
+    text-align: left;
+    line-height: 30px;
+}
+.addr{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(204, 204, 204, 0.16);
+    padding-top: 1px;
+}
+.addr_p{
+    height: 40px;
+    margin: 10px auto;
+    padding-left: 4px;
+    text-align: left;
+    line-height: 40px;
+    background-color: white;
+}
+.panel_head{
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+}
+.panel_head p{
+    width: 30%;
+}
+.panel_pro{
+    position: relative;
+}
+.panel_detail,.panel_message,.panel_comment{
+    position: absolute;
+    width: 100%;
+}
+
+
+/*=========面板1的详情*/
+.panel_detail_reload{
+   width: 90%;
+    margin: 0 auto;
+}
+.panel_detail_imgBig{
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+
+.panel_detail_reload img{
+    width: 100%;
+    height: 120px;
+}
+.panel_detail_reload  p{
+    margin-top: 3%;
+}
+/*========panel_message*/
+.panel_message_ul{
+    margin: 0 auto;
+    width: 85%;
+}
+.panel_message_ul li{
+    text-align: left;
+}
+.panel_message_ul li:first-child{
+    padding-top: 5%;
+}
+/*================panel_comment===*/
+.panel_comment_reload_flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.panel_comment_reload{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 100%;
+}
+/*:root{*/
+    /*overflow-x:hidden*/
+/*}*/
+.panel_comment_reload_flex div:first-child{
+    text-align: left;
+}
+.panel_comment_reload_flex div:last-child{
+    text-align: right;
+}
+.panel_comment_reload_flex div{
+    width: 40%;
+    vertical-align: middle;
+}
+.flex-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.panel_comment_reload_flex div span{
+    padding-left: 5px;
+}
+.panel_comment_reload_flex div p{
+    margin-left: 5px;
+}
+.content_tea_num{
+    color: #333;
+    font-size: 12px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    /*padding: 5px 0;*/
+}
+.comment_content{
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    /*padding: 5px 0;*/
+}
+/*================*/
+.tab_title_active{
+    color: #883e21;
+    height: 20px;
+    border-bottom: 2px solid #883e21;
+}
+.tab_item_active{
+    display: none;
+}
+/*===================固定导航底部=====*/
+.fixed_bar{
+    font-family: iconfont;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    justify-content: flex-end;
+}
+.fixed_bar_item_small{
+    width: 60px;
+    color: #333;
+    text-align: center;
+}
+.fixed_bar_item_small p:last-child{
+    font-size: 12px;
+}
+.fixed_bar_item_small span:first-child{
+    font-size: 16px;
+}
+.fixed_bar_item_big{
+    width: 25%;
+    background-color: #883e21;
+    color: white;
+    font-size: 16px;
+    height: 60px;
+    text-align: center;
+}
+.fixed_bar_item_big li{
+    text-align: center;
+}
+.fixed_bar_item_big>p{
+    line-height: 45px;
+}

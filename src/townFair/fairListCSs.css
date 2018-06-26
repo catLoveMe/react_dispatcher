@@ -1,0 +1,68 @@
+.content{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*:root{*/
+    /*overflow-x:hidden*/
+/*}*/
+.fontfl{
+    font-size: 14px;
+}
+.content_item{
+    width: 100%;
+    margin-top: 10%;
+}
+.content_img{
+    background-color: #00a9e3;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+}
+.content_img{
+    width: 170px;
+}
+.content_p{
+    height: 60px;
+    width: 100%;
+}
+.h5_head{
+    font-weight: bolder;
+    font-size: 14px;
+    padding-right: 3%;
+}
+.pirce{
+    color: #883e21;
+}
+.sale_num{
+    color: #333;
+    padding-left: 8%;
+}
+.hot_product{
+    position: absolute;
+    left: 3%;
+    top: 1%;
+    border-radius: 3px;
+    width: 50px;
+    height: 25px;
+    background-color: #883e21;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+.content_p_p{
+    text-align: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.mytown{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+

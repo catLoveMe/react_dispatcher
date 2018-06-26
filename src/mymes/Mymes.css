@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url("../main/zttf.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-size: 16px;
+    font-family: iconfont;
+    color: #333;
+}
+.btname{
+    height: 50px;
+    line-height:50px;
+    padding: 0 20px;
+    border-bottom: 5px solid #e2e2e2;
+}
+.btname span{
+    float: left;
+    text-decoration: none;
+    color: #333;
+}
+.pxt{
+    text-align: left;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e2e2;
+    color: #333;
+}
+.pxt span{
+    float: right;
+    text-decoration: none;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,36 @@
+.quanzi{
+    width: 100%;
+    overflow-x: hidden;
+}
+.quanziheader{
+    width: 100%;
+    height: 30vh;
+}
+.quanzi hr{
+    width: 100%;
+    border: white;
+    height: 5px;
+}
+.quanziconntent{
+    width: 100%;
+}
+.quanzidetail{
+    float: left;
+    width: 50%;
+    /*outline: 1px solid red;*/
+}
+.quanzidetail img{
+    width: 90%;
+    height: 130px;
+    /*height: 150px;*/
+}
+.quanzidetail h3{
+    /*border: 1px solid red;*/
+    margin: 0 ;
+    font-weight:normal;
+}
+.quanzidetail h5{
+    /*border: 1px solid red;*/
+    margin: 3px 0 ;
+    color: darkgray;
+}
